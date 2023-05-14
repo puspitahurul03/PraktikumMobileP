@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "688429712467",
+    "project_id": "amik-finance",
+    "storage_bucket": "amik-finance.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688429712467:android:ddce32be4edf432c7732a6",
+        "android_client_info": {
+          "package_name": "com.pembuatanprogram.amikfinance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688429712467-s58iaig3tie93shpsgmot1l9ua267hoj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlpkgj-zoFjEI4Kz4h4HpWBC3HGSOYuWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "688429712467-s58iaig3tie93shpsgmot1l9ua267hoj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

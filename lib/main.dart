@@ -1,7 +1,24 @@
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import './login.dart';
-void main() {
+
+import 'app_constant.dart';
+
+void main()async {
+  WidgetsFlutterBinding.ensureInitialized();
+await Firebase.initializeApp(
+name: AppConstant.firebaseName,
+options: const FirebaseOptions(
+  apiKey: AppConstant.firebaseApiKey, 
+  appId: AppConstant.firebaseAppId, 
+  messagingSenderId: "688429712467", 
+  projectId: "amik-finance"
+  ),
+);
+
   runApp(MyApp());
+
 }
 
 class MyApp extends StatelessWidget {
